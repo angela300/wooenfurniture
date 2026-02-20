@@ -82,7 +82,7 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="https://angela300.github.io/" element={<>
+        <Route path="/" element={<>
           <TopScreen />
           <NavigationBar products={products} />
           <RollerImage />
