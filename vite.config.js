@@ -8,9 +8,10 @@
 
 
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react-swc'
 
+const repoName = 'wooenfurniture'
 export default defineConfig({
-  plugins: [react()],
-  base: "/wooenfurniture/"   // ⚠️ must match your repo name
+  base: `/${repoName}/`, 
+  plugins: [react(), tailwindcss()],  // ⚠️ must match your repo name
 })
