@@ -13,5 +13,5 @@ import react from '@vitejs/plugin-react-swc'
 const repoName = 'wooenfurniture'
 export default defineConfig({
   base: `/${repoName}/`, 
-  plugins: [react(), tailwindcss()],  // ⚠️ must match your repo name
+  plugins: [react()],  // ⚠️ must match your repo name
 })
